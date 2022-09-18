@@ -1,0 +1,41 @@
+    html {
+        background-color: black;
+    }
+    
+    ul {
+        padding: 0%;
+        margin: 0%;
+        list-style: none;
+    }
+    
+    ul li {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 20px;
+        width: 100px;
+        height: 40px;
+        line-height: 40px;
+        float: right;
+        text-align: center;
+        text-decoration: none;
+        gap: 20px;
+    }
+    
+    ul li a {
+        text-decoration: none;
+        display: block;
+        background-color: aqua;
+    }
+    
+    ul li a:hover {
+        background-color: blue;
+        color: rgba(255, 255, 255, 0.596);
+    }
+    
+    ul li ul li {
+        display: none;
+        /* display: inline; */
+    }
+    
+    ul li:hover ul li {
+        display: block;
+    }
